@@ -2,7 +2,7 @@ name: Refresh dashboard (3h)
 
 on:
   schedule:
-    - cron: '17 */3 * * *'   # a cada 3h (disparado de verdade pelo cron-job.org)
+    - cron: '2 */3 * * *'   # 24/11/2026: org nova scaleagenciaaa, horario proprio (dashes nao rodam juntas)
   workflow_dispatch:
 
 permissions:
